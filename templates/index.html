@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<h1>{% block title %}Hello World!{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<h2>Home</h2>
+<div>
+    <h1>
+        <span class="badge rounded-pill text-bg-primary">{{ utc_dt }}</span>
+    </h1>
+</div>
+{% endblock %}
